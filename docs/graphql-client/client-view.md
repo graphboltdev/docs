@@ -35,7 +35,7 @@ This is where the result of the request is shown when returned by the API.
 
 **7. The debug button**
 
-After you execute a request, this button will take you directly to the [Query Inspector](/query-inspector) for that request.
+After you execute a request, this button will take you directly to the [Query Inspector](/query-inspector/query-details) for that request.
 
 ```mdx-code-block
 import DocCardList from '@theme/DocCardList';
