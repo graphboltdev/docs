@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Resolver details
 
-This window provides informaiton about what happened inside a specific resolver execution.
+This window provides information about what happened inside a specific resolver execution.
 
 ![Resolver Details](./img/resolver-details.png)
 
