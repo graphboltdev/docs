@@ -17,8 +17,8 @@ Legend:
 | # | Description |
 |--|--|
 | 1 | API selector<br/><br/> This is how you select the API you would like to work with. | 
-| 2 | [Authentication](./authentication)<br/><br/>This button opens the authentication window. For more information, read the [authentication] |(authentication) section.
-| 3 | The Query view<br/><br/>This is where you write the GraphQL queries, mutations and subscriptions you woud like to execute.  |
+| 2 | [Authentication](./authentication)<br/><br/>This button opens the authentication window. For more information, read the [authentication](./authentication) section.
+| 3 | The Query view<br/><br/>This is where you write the GraphQL queries, mutations and subscriptions you would like to execute.  |
 | 4 | The variable view<br/><br/>If you use queries that have input variables, this is where you can enter their values, as a JSON. |
 | 5 | The execute button<br/><br/>Press this button to execute the current request. |
 | 6 | The response view<br/><br/>This is where the result of the request is shown when returned by the API. |
@@ -34,11 +34,11 @@ GraphBolt uses the introspection schema in order to provide you with autocomplet
 
 ### Prettify
 
-The 🪄 button allows you to format your code with jsut one click.
+The 🪄 button allows you to format your code with just one click.
 
 ### Multiple operations
 
-You are allowed to write more than one query, mutation or subscription in the request view. When you hit the _Send_ button, GraphBolt will prompt you to select which operation you'd like to use. 
+You are allowed to write more than one query, mutation or subscription in the request view. When you hit the _Send_ button, GraphBolt will prompt you to select which operation you'd like to use. All operations must be [named](https://graphql.org/learn/queries/#operation-name).
 
 ![Multiple Operations](./img/multiple-operations.png)
 
