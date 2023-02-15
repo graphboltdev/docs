@@ -25,7 +25,7 @@ When `AMAZON_COGNITO_USER_POOLS` authentication is enabled, GraphBolt will promp
 ![Cognito User Pools](img/cognito-user-pools.png)
 
 :::tip
-Clicking on _Id Token_ or _Access Token_ in the info window, will take you to https://jwt.io/ to vizualize the content of that token.
+Clicking on _Id Token_ or _Access Token_ in the info window, will take you to https://jwt.io/ to visualize the content of that token.
 :::
 
 :::info
@@ -44,6 +44,6 @@ You can also use `AWS_IAM` as the authentication method. For now, IAM is limited
 
 ![IAM authentication](img/iam.png)
 
-## Lambda authorizer and OIDC
+## Lambda authorizer and OIDC (OpenID Connect)
 
 OIDC and Lambda authorizer are also supported. Just enter your authentication token.

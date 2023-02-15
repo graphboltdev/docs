@@ -30,7 +30,7 @@ The GraphQL client includes the following features:
 
 ### GraphQL autocomplete
 
-GraphBolt uses the introspection schema in order to provide you with autocomplete capabilities and help you write quesries.
+GraphBolt uses the introspection schema in order to provide you with autocomplete capabilities and help you write queries.
 
 ### Prettify
 
@@ -52,4 +52,4 @@ In the future, you will be able to group and organize your operations into colle
 | -- | -- |
 | `Cmd/Ctrl + R`<br/>`Cmd/Ctrl + Enter` | Execute the request |
 | `Cmd/Ctrl + Shift + A` | Open the auth modal |
-| `Cmd/Ctrl + Shift + D` | Go to the query inspector fo rthe last executed query |
+| `Cmd/Ctrl + Shift + D` | Go to the query inspector for the last executed query |

@@ -6,14 +6,14 @@ sidebar_position: 2
 
 The section gives you detailed information of what happened under the hood when a specific query was executed. It allows you to quickly find problems and work on improving your APIs performance.
 
-![Query Detailst](img/query-details.png)
+![Query Details](img/query-details.png)
 
 In the top section, you will find general information about the selected request:
 
 | Field | Description |
 | -- | -- |
 | Api |  The API id this query belongs to.
-| Operation name |  The name of the operation that was executed, or the name of the first query/muation in the request. |
+| Operation name |  The name of the operation that was executed, or the name of the first query/mutation in the request. |
 | Duration |  How long this query took. |
 | Latency | The latency of the request. |
 | Start and end times |  The start and end time of the request. |
@@ -22,11 +22,11 @@ Below, you will find a series of tabs that give deeper information.
 
 # Resolvers
 
-This is a list of all the fields that were resolved by a resolver. They are presented hierarchially, respecting their parent/child relationship.
+This is a list of all the fields that were resolved by a resolver. They are presented hierarchically, respecting their parent/child relationship.
 
 ![Resolvers](img/resolvers.png)
 
-This section gives you additional informaiton about each field/resolver:
+This section gives you additional information about each field/resolver:
 
 | Column | Description |
 | ---  | --- | 

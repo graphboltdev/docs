@@ -45,4 +45,4 @@ For security reasons, the `identity` field is not accessible.
 
 ### Evaluation Result
 
-This is how the mapping template, or Javascript code, was evaluated. For request mapping templates, this is the request sent to the data source. For response mapping templates, this is the result returend by the resolver or pipeline function.
+This is how the mapping template, or Javascript code, was evaluated. For request mapping templates, this is the request sent to the data source. For response mapping templates, this is the result returned by the resolver or pipeline function.
