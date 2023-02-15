@@ -20,19 +20,19 @@ If your API has `API_KEY` as an authentication method, GraphBolt automatically f
 
 ## Cognito User Pools
 
-When `AMAZON_COGNITO_USER_POOLS` authentication is enabled, GraphBolt will prompt you to select the User Pool you want to use (only user pools linked to that API are shown), the App Client Id, the username and password.
+When a `AMAZON_COGNITO_USER_POOLS` authentication provider is available, GraphBolt will prompt you to select the User Pool you want to use (only user pools linked to that API are shown), the App Client Id, the username and password.
 
 ![Cognito User Pools](img/cognito-user-pools.png)
 
 :::tip
-Clicking on _Id Token_ or _Access Token_ in the info window, will take you to https://jwt.io/ to visualize the content of that token.
+Clicking on _Id Token_ or _Access Token_ in the info box, will take you to https://jwt.io/ and let your visualize the content of that token.
 :::
 
-:::info
+:::info Did you know?
 GraphBolt automatically manages the JWT session for you. If a `refreshToken` is available, it will use it to refresh the access token. 
 :::
 
-:::info
+:::info Did you know?
 _MFA_ and _Password Reset_ auth challenges are supported out of the box. A new modal will show up if the current flow requires a challenge. Other challenges are not yet supported.
 
 ![Cognito auth challenge](img/auth-challenge.png)
@@ -40,10 +40,12 @@ _MFA_ and _Password Reset_ auth challenges are supported out of the box. A new m
 
 ## IAM
 
-You can also use `AWS_IAM` as the authentication method. For now, IAM is limited to using the current AWS profile. The _access key_, _secret access key_ and _session token_ values are passed automatically when IAM is selected in the auth modal.
+You can also use `AWS_IAM` as the authentication method. For now, IAM authentication is limited to using the current AWS profile. All requests are automatically signed using the _access key_, _secret access key_ and (optionally) the _session token_ of that profile.
 
 ![IAM authentication](img/iam.png)
 
 ## Lambda authorizer and OIDC (OpenID Connect)
 
 OIDC and Lambda authorizer are also supported. Just enter your authentication token.
+
+![OIDC authentication](img/oidc.png)

@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Query details
 
-The section gives you detailed information of what happened under the hood when a specific query was executed. It allows you to quickly find problems and work on improving your APIs performance.
+This section gives you detailed information of what happened under the hood when a specific query was executed. It allows you to quickly find problems and work on improving your APIs performance.
 
 ![Query Details](img/query-details.png)
 
@@ -33,8 +33,8 @@ This section gives you additional information about each field/resolver:
 | Path|  The full path of the resolved field in the query. |
 | Resolver| The parent type and field name of the executed resolver. Next to it you'll see what kind of resolver it is (i.e. `Unit` or `Pipeline`), and an icon representing the underlying data source(s) that were used to resolve this field. |
 | Start offset| The difference in time between the beginning of this resolver and the start of the request.|
-| Duration| How long this invocation lasted.|
-| 👁 | Click to see [resolver details](./resolver-details) |
+| Duration| How long this invocation of the resolver lasted.|
+| eye / 👁 | Click to see [resolver details](./resolver-details) |
 
 # Query
 

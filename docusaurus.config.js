@@ -50,10 +50,28 @@ const config = {
     ],
   ],
 
+  plugins: [
+    require.resolve("docusaurus-plugin-image-zoom"),
+  ],
+
+  themes: [
+    [
+      // @ts-ignore
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      // @ts-ignore
+      ({
+        hashed: true,
+        docsRouteBasePath: "/",
+      }),
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/og-image.png',
+      zoom: {},
       navbar: {
         logo: {
           alt: 'GraphBolt',
@@ -65,11 +83,6 @@ const config = {
             href: 'https://graphbolt.dev',
             label: 'Download',
             position: 'left'
-          },
-          {
-            href: 'https://blog.graphbolt.dev',
-            label: 'GitHub',
-            position: 'right',
           },
         ],
       },

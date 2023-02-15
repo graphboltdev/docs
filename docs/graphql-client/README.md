@@ -3,7 +3,7 @@
 The GraphQL client allows you to execute queries, mutations, and subscriptions with ease. Think of it as [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/) specifically designed and tailored for AWS AppSync.
 
 :::tip
-GraphBolt explores your AWS accounts and finds all your existing AppSync APIs. Just select one from the drop-down menu, and start executing queries.
+GraphBolt explores your AWS accounts and finds all your existing AppSync APIs. Just select one from the drop-down menu, authenticate, and start executing queries.
 :::
 
 ## Overview 
@@ -12,12 +12,10 @@ GraphBolt explores your AWS accounts and finds all your existing AppSync APIs. J
 
 The client view is composed of various sections, explained below.
 
-Legend:
-
 | # | Description |
 |--|--|
-| 1 | API selector<br/><br/> This is how you select the API you would like to work with. | 
-| 2 | [Authentication](./authentication)<br/><br/>This button opens the authentication window. For more information, read the [authentication](./authentication) section.
+| 1 | API picker<br/><br/> This is how you select the API you would like to work with. You don't need to enter the API URL, it is detected automatically. | 
+| 2 | [Authentication](./authentication)<br/><br/>Opens the authentication window. For more information, read the [authentication](./authentication) section.
 | 3 | The Query view<br/><br/>This is where you write the GraphQL queries, mutations and subscriptions you would like to execute.  |
 | 4 | The variable view<br/><br/>If you use queries that have input variables, this is where you can enter their values, as a JSON. |
 | 5 | The execute button<br/><br/>Press this button to execute the current request. |
@@ -28,13 +26,9 @@ Legend:
 
 The GraphQL client includes the following features:
 
-### GraphQL autocomplete
+### Autocomplete
 
-GraphBolt uses the introspection schema in order to provide you with autocomplete capabilities and help you write queries.
-
-### Prettify
-
-The 🪄 button allows you to format your code with just one click.
+GraphBolt uses the introspection schema in order to provide you with autocomplete capabilities and help you write your queries.
 
 ### Multiple operations
 
