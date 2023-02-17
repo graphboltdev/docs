@@ -50,10 +50,31 @@ const config = {
     ],
   ],
 
+  scripts: [{ src: 'https://stats.graphbolt.dev/js/script.outbound-links.js', defer: true, 'data-domain': 'docs.graphbolt.dev' }],
+
+
+  plugins: [
+    require.resolve("docusaurus-plugin-image-zoom"),
+  ],
+
+  themes: [
+    [
+      // @ts-ignore
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      // @ts-ignore
+      ({
+        hashed: true,
+        docsRouteBasePath: "/",
+      }),
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/og-image.png',
+      zoom: {},
       navbar: {
         logo: {
           alt: 'GraphBolt',
@@ -65,11 +86,6 @@ const config = {
             href: 'https://graphbolt.dev',
             label: 'Download',
             position: 'left'
-          },
-          {
-            href: 'https://blog.graphbolt.dev',
-            label: 'GitHub',
-            position: 'right',
           },
         ],
       },
@@ -94,12 +110,16 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'GraphBolt',
+                href: 'https://graphbolt.dev',
+              },
+              {
                 label: 'Blog',
                 href: 'https://blog.graphbolt.dev',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/grpahboltdev/graphbolt',
+                label: 'Roadmap',
+                href: 'https://github.com/orgs/graphboltdev/projects/1',
               },
             ],
           },
