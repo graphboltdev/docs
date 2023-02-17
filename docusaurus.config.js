@@ -50,6 +50,9 @@ const config = {
     ],
   ],
 
+  scripts: [{ src: 'https://stats.graphbolt.dev/js/script.outbound-links.js', defer: true, 'data-domain': 'docs.graphbolt.dev' }],
+
+
   plugins: [
     require.resolve("docusaurus-plugin-image-zoom"),
   ],
