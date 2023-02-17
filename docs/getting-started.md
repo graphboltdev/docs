@@ -5,7 +5,7 @@ description: GraphBolt is a desktop app for AWS AppSync. Build, manage, test and
 
 ---
 
-# 🚀 Getting Started
+# 🚀 Getting Started test
 
 ## What is GraphBolt?
 
