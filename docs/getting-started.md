@@ -3,11 +3,13 @@ slug: /
 sidebar_position: 1
 ---
 
-# 🚀 Getting started
+# 🚀 Getting Started
 
 ## What is GraphBolt?
 
 GraphBolt is the ultimate tool for AWS AppSync developers, providing a comprehensive solution for building, testing, and debugging GraphQL APIs.
+
+![GraphBolt](./img/GraphBolt.png)
 
 ## Setup
 

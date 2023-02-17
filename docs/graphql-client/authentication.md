@@ -44,7 +44,7 @@ You can also use `AWS_IAM` as the authentication method. For now, IAM authentica
 
 ![IAM authentication](img/iam.png)
 
-## Lambda authorizer and OIDC (OpenID Connect)
+## Lambda Authorizer and OIDC (OpenID Connect)
 
 OIDC and Lambda authorizer are also supported. Just enter your authentication token.
 

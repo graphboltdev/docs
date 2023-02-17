@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Recent queries
+# Recent Queries
 
 On this screen, you will find a list of the queries that were recently executed, for a given API, along with some information such as the query/operation, the input variables, the request id, and the timestamp.
 

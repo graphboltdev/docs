@@ -30,7 +30,7 @@ The GraphQL client includes the following features:
 
 GraphBolt uses the introspection schema in order to provide you with autocomplete capabilities and help you write your queries.
 
-### Multiple operations
+### Multiple Operations
 
 You are allowed to write more than one query, mutation or subscription in the request view. When you hit the _Send_ button, GraphBolt will prompt you to select which operation you'd like to use. All operations must be [named](https://graphql.org/learn/queries/#operation-name).
 
@@ -40,7 +40,7 @@ You are allowed to write more than one query, mutation or subscription in the re
 In the future, you will be able to group and organize your operations into collections. See [roadmap](https://github.com/orgs/graphboltdev/projects/1/views/1?query=is%3Aopen+sort%3Aupdated-desc&filterQuery=colle&pane=issue&itemId=11954307)
 :::
 
-### Keyboard shortcuts
+### Keyboard Shortcuts
 
 | Combination | Action |
 | -- | -- |

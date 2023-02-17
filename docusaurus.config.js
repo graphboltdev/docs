@@ -107,12 +107,16 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'GraphBolt',
+                href: 'https://graphbolt.dev',
+              },
+              {
                 label: 'Blog',
                 href: 'https://blog.graphbolt.dev',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/grpahboltdev/graphbolt',
+                label: 'Roadmap',
+                href: 'https://github.com/orgs/graphboltdev/projects/1',
               },
             ],
           },
