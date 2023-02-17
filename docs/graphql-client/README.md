@@ -1,4 +1,4 @@
-# GraphQL client
+# GraphQL Client
 
 The GraphQL client allows you to execute queries, mutations, and subscriptions with ease. Think of it as [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/) specifically designed and tailored for AWS AppSync.
 
