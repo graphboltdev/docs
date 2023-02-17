@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'GraphBolt docs',
-  tagline: '',
+  tagline: 'Build, manage, test and debug AppSync APIs in a single place.',
   favicon: 'img/favicon.png',
 
   url: 'https://docs.graphbolt.dev',
