@@ -36,6 +36,22 @@ This section gives you additional information about each field/resolver:
 | Duration| How long this invocation of the resolver lasted.|
 | eye / 👁 | Click to see [resolver details](./resolver-details) |
 
+# X-Ray
+
+Quickly see X-Ray traces for the selected query. This includes:
+
+- Resolver mapping templates
+- DynamoDB data sources
+- Lambda resolvers
+- HTTP resolver requests 
+- etc
+
+![X-Ray](img/x-ray.png)
+
+:::caution
+For this feature to work, [x-ray traces](https://docs.aws.amazon.com/appsync/latest/devguide/x-ray-tracing.html) must be enabled on the API. 
+:::
+
 # Query
 
 This tab shows the query that was executed along with the input variables (if any).
@@ -48,7 +64,7 @@ A list of all the HTTP request or response headers of the HTTP request.
 
 ![Headers](img/headers.png)
 
-# Raw Logs
-This includes all the logs related to this query (as seen in AWS CloudWatch).
+# CloudWatch Logs
+This includes all the logs related to this query as seen in AWS CloudWatch.
 
 ![Raw logs](img/raw-logs.png)
