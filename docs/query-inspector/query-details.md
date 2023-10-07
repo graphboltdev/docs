@@ -34,7 +34,9 @@ This section gives you additional information about each field/resolver:
 | Resolver| The parent type and field name of the executed resolver. Next to it you'll see what kind of resolver it is (i.e. `Unit` or `Pipeline`), and icon (or icons) representing the underlying data source(s) that were used to resolve this field. |
 | Start offset| The difference in time between the beginning of this resolver invocation and the start of the request.|
 | Duration| How long this invocation of the resolver lasted.|
-| eye / 👁 | Click to see [resolver details](./resolver-details) |
+
+
+Click on a row to see [resolver details](./resolver-details)
 
 # X-Ray
 
