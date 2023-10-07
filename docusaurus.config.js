@@ -116,11 +116,7 @@ const config = {
               {
                 label: 'Blog',
                 href: 'https://blog.graphbolt.dev',
-              },
-              {
-                label: 'Roadmap',
-                href: 'https://github.com/orgs/graphboltdev/projects/1',
-              },
+              }
             ],
           },
         ],

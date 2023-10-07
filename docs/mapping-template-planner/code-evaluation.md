@@ -6,11 +6,6 @@ sidebar_position: 1
 
 This tool allows you to quickly build and test your VTL mapping templates or AppSync JavaScript Resolvers. At the moment, this is nothing else than a friendly GUI for the [evaluate-mapping-template](https://docs.aws.amazon.com/cli/latest/reference/appsync/evaluate-mapping-template.html) and [evaluate-code](https://docs.aws.amazon.com/cli/latest/reference/appsync/evaluate-code.html) aws cli commands.
 
-:::info
-There are plans to allow executing the resulting JSON object against real data sources. See the [roadmap](https://github.com/orgs/graphboltdev/projects/1/views/1?filterQuery=mapping&pane=issue&itemId=11954302).
-:::
-
-
 ![Mapping template evaluation](./img/evaluation.png)
 
 ## 1. Context Object
