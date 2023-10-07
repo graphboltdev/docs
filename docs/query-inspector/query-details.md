@@ -36,7 +36,7 @@ This section gives you additional information about each field/resolver:
 | Duration| How long this invocation of the resolver lasted.|
 
 
-Click on a row to see [resolver details](./resolver-details)
+Click on a resolver to see [resolver details](./resolver-details)
 
 # X-Ray
 
