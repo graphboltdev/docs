@@ -15,12 +15,13 @@ The client view is composed of various sections, explained below.
 | # | Description |
 |--|--|
 | 1 | API picker<br/><br/> This is how you select the API you would like to work with. You don't need to enter the API URL, it is detected automatically. | 
-| 2 | [Authentication](./authentication)<br/><br/>Opens the authentication window. For more information, read the [authentication](./authentication) section.
-| 3 | The Query view<br/><br/>This is where you write the GraphQL queries, mutations and subscriptions you would like to execute.  |
-| 4 | The variable view<br/><br/>If you use queries that have input variables, this is where you can enter their values, as a JSON. |
-| 5 | The execute button<br/><br/>Press this button to execute the current request. |
-| 6 | The response view<br/><br/>This is where the result of the request is shown when returned by the API. |
-| 7 | The debug button<br/><br/>After you execute a request, this button will take you directly to the [Query Inspector](/query-inspector/query-details) for that request.
+| 2 | [Operations Collection](./collections.md) <br/><br/> Keep your operations organized. | 
+| 3 | [Authentication](./authentication)<br/><br/>Opens the authentication window. For more information, read the [authentication](./authentication) section.
+| 4 | The Query view<br/><br/>This is where you write the GraphQL queries, mutations and subscriptions you would like to execute.  |
+| 5 | The variable view<br/><br/>If you use queries that have input variables, this is where you can enter their values, as a JSON. |
+| 6 | The execute button<br/><br/>Press this button to execute the current request. |
+| 7 | The response view<br/><br/>This is where the result of the request is shown when returned by the API. |
+| 8 | The debug button<br/><br/>After you execute a request, this button will take you directly to the [Query Inspector](/query-inspector/query-details) for that request.
 
 ## Key Features
 
