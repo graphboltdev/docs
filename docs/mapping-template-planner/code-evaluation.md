@@ -8,28 +8,14 @@ This tool allows you to quickly build and test your VTL mapping templates or App
 
 ![Mapping template evaluation](./img/evaluation.png)
 
-## 1. Context Object
+| # | Description |
+|--|--|
+| 1 | [Resolvers Collection](./collections.md) <br/><br/> Keep your resolvers organized. | 
+| 2 | Context Object<br/><br/> This is is where you can enter the data that will be used as the `context` to evaluate the resolver. It is split into several tabs where each tab is one field of the [context object](https://docs.aws.amazon.com/appsync/latest/devguide/resolver-context-reference-js.html). <br/><br/>All values should be represented as a JSON object. |
+| 3 | Mapping Template / JS Resolver code<br/><br/> This is where you can write your VTL mapping template, or JavaScript resolver code. Select the runtime you want to use from the dropdown, and write or paste your resolver in the code editor. |
+| 4 | Click to evaluate the resolver |
+| 5 | Evaluation Result <br/><br/>This is where the result of the evaluation is shown. |
 
-The top section is where you can enter the data that will be used as the `context` to evaluate the mapping template. It is split into several tabs where each tab is one field of the [context object](https://docs.aws.amazon.com/appsync/latest/devguide/resolver-context-reference-js.html).
-
-All values should be represented as a JSON object.
-
-
-## 2. Mapping Template/JS Resolver
-
-This is where you can write your VTL mapping template, or JavaScript resolver code. 
-Select the runtime you want to use from the dropdown, and write or paste your resolver in the code editor below. 
-
-
-After clicking the `Eval` button, the result will show in the right section.
-
-:::info
-For JS resolvers, you will also be prompted to select the function to evaluate (i.e. `request()` or `response()`)
-:::
-
-## 3. Result
-
-This is where the result of the evaluation is shown.
 
 ## Keyboard Shortcuts
 

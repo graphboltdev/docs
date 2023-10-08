@@ -10,8 +10,6 @@ To authenticate, click on the 🔒 icon (`Cmd/Ctrl + Shift + A`) from the Query 
 
 GraphBolt will show you the available authentication methods for the currently selected API.
 
-![Authentication](img/authentication.png)
-
 ## API Keys
 
 If your API has `API_KEY` as an authentication method, GraphBolt automatically fetches all the available API keys. Just select the one you want to use from the dropdown menu.
