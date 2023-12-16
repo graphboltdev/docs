@@ -1,4 +1,4 @@
-# Query Inspector 
+# 🕵️‍♂️ Query Inspector 
 
 The query inspector gives you the ability to dive deep into the execution of your resolvers, quickly find issues, and optimize your API performance.
 
